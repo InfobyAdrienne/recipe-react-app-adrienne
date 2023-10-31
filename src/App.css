@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+body, html {
+  height: 100vh;
+  width: 100vh;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("https://images.pexels.com/photos/4261996/pexels-photo-4261996.jpeg");
+
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 10px top;
+}
