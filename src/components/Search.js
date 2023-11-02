@@ -5,13 +5,12 @@ function Search() {
   return (
     <form>
       <input className="ingredient-search" placeholder="Input ingredient..."></input>
-      <input type="submit" />
 
       <input className="ingredient-search" placeholder="Input ingredient..."></input>
-      <input type="submit" />
 
       <input className="ingredient-search" placeholder="Input ingredient..."></input>
-      <input type="submit" />
+
+      <button class="submit">Search</button>
     </form>
   );
 }

@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -37,13 +31,7 @@
   }
 }
 
-body, html {
-  height: 100vh;
-  width: 100vh;
-  margin: 0;
-}
-
-.bg {
+/* .bg {
   background-image: url("https://images.pexels.com/photos/4261996/pexels-photo-4261996.jpeg");
 
   height: 100%;
@@ -51,4 +39,4 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right 10px top;
-}
+} */
