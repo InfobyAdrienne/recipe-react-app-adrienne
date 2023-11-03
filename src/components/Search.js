@@ -38,7 +38,13 @@ function Search() {
       {mealData && mealData.map(meal => (
         <div key={meal.id}>
           <h2 className="meal-title">{meal.title}</h2>
-          <img className="meal-image"src={meal.image} alt={meal.title} />
+          <img className="meal-image" src={meal.image} alt={meal.title}/>
+          <p>{meal.missedIngredients.map(ingredient => (
+            <div key={ingredient.id}>
+              <p className="ingredient">{ingredient.original}</p>
+              <img className="ingredient-image"src={ingredient.image}/>
+            </div>
+          ))}</p>
         </div>
       ))}
     </form>
