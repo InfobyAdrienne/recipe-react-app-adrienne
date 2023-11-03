@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+.meal-title{
+  font-family: "Poiret One";
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.meal-image{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px orange;
+}
+
 .ingredient-search {
   display: flex;
   margin: auto;
@@ -13,7 +33,8 @@
   padding: 13px 20px 13px;
   border: 1px solid black;
   box-shadow: 10px 10px orange;
-  font-family: "Poiret One"
+  font-family: "Poiret One";
+  border-radius: 10px;
 }
 
 .submit {
@@ -31,7 +52,8 @@
   touch-action: manipulation;
   margin: 0 auto;
   display: block;
-  font-family: "Poiret One"
+  font-family: "Poiret One";
+  border-radius: 10px;
 }
 
 .submit:after {
@@ -44,6 +66,7 @@
   top: 7px;
   left: 7px;
   transition: 0.2s;
+  border-radius: 10px;
 }
 
 .submit:hover:after {
