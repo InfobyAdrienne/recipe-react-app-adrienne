@@ -35,18 +35,23 @@ function Search() {
 
       <button onClick={(event) => getMealData(event)} className="submit">Search</button>
 
-      {mealData && mealData.map(meal => (
-        <div key={meal.id}>
-          <h2 className="meal-title">{meal.title}</h2>
-          <img className="meal-image" src={meal.image} alt={meal.title}/>
-          <p>{meal.missedIngredients.map(ingredient => (
-            <div key={ingredient.id}>
-              <p className="ingredient">{ingredient.original}</p>
-              <img className="ingredient-image"src={ingredient.image}/>
-            </div>
-          ))}</p>
-        </div>
-      ))}
+      <div className="meal-container">
+        {mealData && mealData.map(meal => (
+          <div className="column">
+          <div key={meal.id}>
+
+            <img className="meal-image" src={meal.image} alt={meal.title} />
+            <h2 className="meal-title">{meal.title}</h2>
+            <p>{meal.missedIngredients.map(ingredient => (
+              <div key={ingredient.id}>
+                <p className="ingredient">{ingredient.original}</p>
+              </div>
+            ))}</p>
+
+          </div>
+          </div>
+        ))}
+      </div>
     </form>
 
 

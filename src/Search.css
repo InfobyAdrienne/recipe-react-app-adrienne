@@ -2,7 +2,7 @@
 
 .meal-title{
   font-family: "Poiret One";
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
   letter-spacing: 1px;
   text-align: center;
@@ -11,11 +11,12 @@
 }
 
 .meal-image{
+  margin-top: 20px;
   width: 50%;
   height: 50%;
   object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 10px 10px orange;
+  border-radius: 15px;
+  box-shadow: 6px 6px orange;
 }
 
 .ingredient-search {
@@ -78,4 +79,28 @@
   .submit {
     padding: 13px 50px 13px;
   }
+}
+
+.meal-container{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+}
+
+.column {
+  padding: 16px;
+  height: auto;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+p{
+  font-family: "Poiret One";
+  font-size: 15x;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0px;
 }
